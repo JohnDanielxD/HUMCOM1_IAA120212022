@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="John Daniel M. Perez" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Holtwood One SC' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+        <title>Registration Form John Daniel M. Perez</title>
+    </head>
+    <body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;line-height: 2;color: black: white;"></body>
+    <center><h1 style=font-family:Arial, Helvetica, sans-serif;font-size: 55px;color: rgb(248, 248, 248);">Sign up now!</h1>
+    </center>
+    <hr>
+    <p style="font-size: 20px;">Field marked with (*) are required</p>
+    <form action="/action_page.php"></form>
+    <fieldset>
+    <legend><h2 style="line-height: 0.1;">Your Details</h2></legend>
+    <label for="name">Name*</label>
+    <input type="text" id="name" placeholder="Full Name">
+    <br>
+    <label for="mail">Email*</label>
+    <input type="text" id="mail" placeholder="e.g ryan@gmail.com">
+    <br>
+    <label for="phone">Phone*</label>
+    <input type="text" id="phone" placeholder="Please enter an eleven digit number">
+    </fieldset>
+    <fieldset>
+    <legend><h2 style="line-height: 0.1;">Delivery Address</h2></legend>
+    <label for="address">Address 1*</label>
+    <input type="text" id="address" placeholder="House/Apt Number and Street">
+    <br>
+    <label for="district">District/Barangay*</label>
+    <input type="text" id="district" placeholder="e.g South Sanitary Camp">
+    <br>
+    <label for="city">City*</label>
+    <select name="city" id="city">
+    <option value="alaminos">Alaminos</option>
+    <option value="angeles">Angeles City</option>
+    <option value="antipolo">Antipolo</option>
+    <option value="bacolod">Bacolod</option>
+    <option value="bacoor">Bacoor</option>
+    <option value="baguio">Baguio</option>
+    <option value="cavite">Cavite</option>
+    <option value="cebu">Cebu City</option>
+    <option value="quezon">Quezon City</option>
+    <option value="zamboanga">Zamboanga City</option>
+    </select>
+    <br>
+    <label for="postal">Postal Code*</label>
+    <input type="text" id="postal" placeholder="e.g 2600">
+    <br>
+    <label for="province">Province*</label>
+    <select name="province" id="province">
+    <option value="abra">Abra</option>
+    <option value="basilan">Basilan</option>
+    <option value="cagayan">Cagayan</option>
+    <option value="davao">Davao Del Norte</option>
+    <option value="eastern">Eastern Samar</option>
+    <option value="guimaras">Guimaras</option>
+    <option value="ifugao">Ifugao</option>
+    <option value="kalinga">Kalinga</option>
+    <option value="launion">La Union</option>
+    <option value="palawan">Palawan</option>
+    </select>
+    </fieldset>
+    <fieldset>
+    <legend><h2 style="line-height: 0.1;">Membership Information</h2></legend>
+    <label for="username">Username*</label>
+    <input type="text" id="username" placeholder="at least 6 alphanumeric char">
+    <br>
+    <label for="password">Password*</label>
+    <input type="text" id="password" placeholder="e.g helloitsme123">
+    <br>
+    <dt>Magazine Subscription</dt>
+    <input type="checkbox" id="pc" name="pc" value="PC Magazine">
+    <label for="pc">PC Magazine</label><br>
+    <input type="checkbox" id="wired" name="wired" value="wired">
+    <label for="pc">Wired</label><br>
+    <input type="checkbox" id="comp" name="comp" value="comp">
+    <label for="pc">Computer World</label><br>
+    <input type="checkbox" id="idont" name="idont" value="idont">
+    <label for="pc">I don't subscribe</label><br>
+    <input type="checkbox" id="others" name="others" value="others">
+    <label for="others">Others</label><br>
+    </fieldset>
+    <fieldset>
+    <input type="submit" onclick="alert('Thanks for filling up the information!')" value=" Sign Up ">
+    </fieldset>
